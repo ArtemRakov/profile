@@ -2,6 +2,16 @@ body {
   font-family: 'Varela Round', sans-serif;
   background-color: #EEEEEE;
   color: rgb(70, 70, 70);
+  background-image: url("images/desk.jpg");
+
+    /* Set a specific height */
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
 }
 
 h1, h2, h3 {
@@ -9,16 +19,39 @@ h1, h2, h3 {
   letter-spacing: 0.5px;
 }
 
+#sidebar {
+  position: fixed;
+  width: 130px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #384047;
+}
+
+#page-content {
+  margin-left: 130px;
+  margin-top: 0;
+}
+
+#info {
+  margin-top:0;
+}
+
+#sidebar ul {
+  padding-left: 0;
+  text-align: center;
+}
+
 .box-white {
   background-color: #F5F5F5;
-  width: 900px;
+  width: 700px;
   margin: 20px auto;
   padding: 30px;
-  box-shadow: 2px 2px 3px #E5E5E5;
+  box-shadow: 1px 1px 3px #E5E5E5;
   border-radius: 2px;
 }
 .text-margin {
-  margin: 20px 150px;
+  margin: 20px 100px;
 }
 
 .text-center {
@@ -71,6 +104,16 @@ h1, h2, h3 {
   transition: 0.3s;
   color:#E84855;
   border: 1px solid #E84855;
+}
+
+.btn-sidebar {
+  color:rgb(210,210,210);
+  font-size: 30px;
+  margin: 15px;
+}
+
+.btn-sidebar:hover {
+  color:#E84855;
 }
 
 h1 {
