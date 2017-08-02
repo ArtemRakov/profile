@@ -144,7 +144,17 @@ p {
   border-radius: 2px
 }
 
+.color-red:hover {
+  color:#CF1259;
+}
 
+.color-yellow:hover{
+  color:#E4CC37;
+}
+
+.color-green:hover {
+  color:#8FC93A;
+}
 a {
   color: rgb(70, 70, 70);
   text-decoration: none;
